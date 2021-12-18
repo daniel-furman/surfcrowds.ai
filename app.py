@@ -45,7 +45,7 @@ app.layout = html.Div(children=[
 )
 def update_prediction(mini, maxi, day):
 
-    result = requests.post("https://8xqae03quf.execute-api.us-east-2.amazonaws.com/default/surfcrowd-lambda0",
+    result = requests.post("", #private api
 
         json = {"Minimum Wave Height (ft)": mini,
                 "Maximum Wave Height (ft)": maxi,
